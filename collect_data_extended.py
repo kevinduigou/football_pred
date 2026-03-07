@@ -3,7 +3,7 @@ import json
 import time
 from collections import Counter
 
-API_KEY = "c1b837c37df33c46d475f5a67c346c22"
+API_KEY = os.environ.get("FOOTBALL_API_SPORTS")
 BASE_URL = "https://v3.football.api-sports.io"
 HEADERS = {"x-apisports-key": API_KEY}
 

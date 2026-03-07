@@ -2,7 +2,7 @@ import os
 import re
 
 REPO_DIR = "/home/ubuntu/football-prediction-xgboost"
-API_KEY = "c1b837c37df33c46d475f5a67c346c22"
+API_KEY = os.environ.get"FOOTBALL_API_SPORTS"
 
 def sanitize_file(file_path):
     with open(file_path, 'r') as f:
