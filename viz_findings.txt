@@ -1,0 +1,12 @@
+Feature importance: elo_diff is the most important feature by far (~0.175), followed by home_elo (~0.08) and away_elo (~0.075). All other features contribute roughly equally (~0.05-0.065).
+
+Confusion matrix (test set): 
+- Home wins well predicted: 313 correct out of 406 actual (77% recall)
+- Away wins decent: 195 correct out of 357 actual (55% recall)
+- Draws very poorly predicted: only 8 correct out of 245 actual (3% recall) - this is the main weakness
+- Model tends to predict Home or Away, rarely Draw
+
+Model performance:
+- Test accuracy: 51.2% (vs 40.3% baseline of always predicting Home)
+- Test log loss: 1.0177
+- The probability estimates are more useful than the class predictions

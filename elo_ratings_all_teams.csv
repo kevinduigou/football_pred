@@ -1,0 +1,151 @@
+Team,League,Initial ELO,Final ELO,ELO Change,Matches
+Paris Saint Germain,Ligue 1,1500,1798.3,298.3,285
+Inter,Serie A,1500,1767.8,267.8,304
+Bayern München,Bundesliga,1500,1765.8,265.8,272
+Real Madrid,La Liga,1500,1763.0,263.0,304
+Barcelona,La Liga,1500,1761.8,261.8,304
+Liverpool,Premier League,1500,1746.5,246.5,304
+Manchester City,Premier League,1500,1744.4,244.4,304
+Bayer Leverkusen,Bundesliga,1500,1735.7,235.7,272
+Arsenal,Premier League,1500,1733.0,233.0,304
+Napoli,Serie A,1500,1707.4,207.4,304
+Juventus,Serie A,1500,1687.8,187.8,304
+Atletico Madrid,La Liga,1500,1681.3,181.3,304
+AS Roma,Serie A,1500,1676.1,176.1,304
+Atalanta,Serie A,1500,1673.0,173.0,304
+Monaco,Ligue 1,1500,1654.1,154.1,286
+AC Milan,Serie A,1500,1652.6,152.6,304
+Borussia Dortmund,Bundesliga,1500,1652.2,152.2,272
+Chelsea,Premier League,1500,1648.7,148.7,304
+Lille,Ligue 1,1500,1644.0,144.0,286
+Aston Villa,Premier League,1500,1642.5,142.5,228
+Athletic Club,La Liga,1500,1642.4,142.4,304
+Villarreal,La Liga,1500,1640.4,140.4,304
+Lazio,Serie A,1500,1638.8,138.8,304
+Marseille,Ligue 1,1500,1637.7,137.7,286
+Nice,Ligue 1,1500,1630.9,130.9,286
+Bologna,Serie A,1500,1627.2,127.2,304
+Newcastle,Premier League,1500,1626.8,126.8,304
+Lyon,Ligue 1,1500,1623.5,123.5,286
+Fiorentina,Serie A,1500,1623.1,123.1,304
+RB Leipzig,Bundesliga,1500,1611.6,111.6,272
+Eintracht Frankfurt,Bundesliga,1500,1610.5,110.5,272
+Brighton,Premier League,1500,1599.8,99.8,304
+Lens,Ligue 1,1500,1597.5,97.5,182
+Real Betis,La Liga,1500,1595.1,95.1,304
+VfB Stuttgart,Bundesliga,1500,1592.3,92.3,242
+Strasbourg,Ligue 1,1500,1590.2,90.2,285
+Crystal Palace,Premier League,1500,1586.3,86.3,304
+Stade Brestois 29,Ligue 1,1500,1580.8,80.8,210
+SC Freiburg,Bundesliga,1500,1577.1,77.1,272
+Nottingham Forest,Premier League,1500,1564.8,64.8,114
+FSV Mainz 05,Bundesliga,1500,1564.2,64.2,272
+Brentford,Premier League,1500,1562.6,62.6,152
+Everton,Premier League,1500,1557.4,57.4,304
+Werder Bremen,Bundesliga,1500,1550.7,50.7,240
+Bournemouth,Premier League,1500,1550.5,50.5,228
+Fulham,Premier League,1500,1543.7,43.7,190
+Osasuna,La Liga,1500,1541.3,41.3,228
+Como,Serie A,1500,1537.6,37.6,38
+Celta Vigo,La Liga,1500,1534.6,34.6,304
+Manchester United,Premier League,1500,1530.4,30.4,304
+Torino,Serie A,1500,1529.3,29.3,304
+Rennes,Ligue 1,1500,1526.4,26.4,286
+Valencia,La Liga,1500,1520.4,20.4,304
+Real Sociedad,La Liga,1500,1520.2,20.2,304
+Rayo Vallecano,La Liga,1500,1517.6,17.6,190
+Toulouse,Ligue 1,1500,1516.0,16.0,212
+Genoa,Serie A,1500,1515.8,15.8,266
+Union Berlin,Bundesliga,1500,1515.0,15.0,206
+VfL Wolfsburg,Bundesliga,1500,1509.1,9.1,272
+West Ham,Premier League,1500,1505.3,5.3,304
+FC Augsburg,Bundesliga,1500,1503.1,3.1,272
+Borussia Mönchengladbach,Bundesliga,1500,1501.3,1.3,272
+Auxerre,Ligue 1,1500,1499.5,-0.5,73
+Wolves,Premier League,1500,1498.8,-1.2,266
+Girona,La Liga,1500,1497.1,-2.9,190
+Tottenham,Premier League,1500,1490.2,-9.8,304
+Alaves,La Liga,1500,1487.9,-12.1,266
+SV Elversberg,Bundesliga,1500,1487.7,-12.3,2
+Mallorca,La Liga,1500,1486.0,-14.0,190
+Udinese,Serie A,1500,1484.6,-15.4,304
+1899 Hoffenheim,Bundesliga,1500,1479.8,-20.2,272
+Reims,Ligue 1,1500,1475.5,-24.5,249
+Nantes,Ligue 1,1500,1475.2,-24.8,288
+Sevilla,La Liga,1500,1473.8,-26.2,304
+1. FC Heidenheim,Bundesliga,1500,1471.9,-28.1,72
+Leganes,La Liga,1500,1471.0,-29.0,152
+Espanyol,La Liga,1500,1469.9,-30.1,228
+FC St. Pauli,Bundesliga,1500,1469.2,-30.8,34
+Hellas Verona,Serie A,1500,1465.2,-34.8,267
+Levante,La Liga,1500,1464.7,-35.3,190
+Le Havre,Ligue 1,1500,1464.3,-35.7,68
+Getafe,La Liga,1500,1462.1,-37.9,304
+Fortuna Dusseldorf,Bundesliga,1500,1461.9,-38.1,69
+1. FC Köln,Bundesliga,1500,1461.4,-38.6,206
+Clermont Foot,Ligue 1,1500,1460.1,-39.9,110
+Lorient,Ligue 1,1500,1453.2,-46.8,148
+Cagliari,Serie A,1500,1451.3,-48.7,266
+Lecce,Serie A,1500,1451.2,-48.8,152
+Cadiz,La Liga,1500,1447.3,-52.7,152
+Cremonese,Serie A,1500,1447.3,-52.7,38
+Sassuolo,Serie A,1500,1442.8,-57.2,266
+Holstein Kiel,Bundesliga,1500,1441.7,-58.3,36
+Huesca,La Liga,1500,1439.1,-60.9,76
+Saint Etienne,Ligue 1,1500,1438.3,-61.7,216
+Arminia Bielefeld,Bundesliga,1500,1436.3,-63.7,68
+Parma,Serie A,1500,1436.2,-63.8,152
+Nimes,Ligue 1,1500,1434.5,-65.5,104
+Empoli,Serie A,1500,1432.5,-67.5,190
+Leeds,Premier League,1500,1429.2,-70.8,114
+Stoke City,Premier League,1500,1425.5,-74.5,38
+Bordeaux,Ligue 1,1500,1425.1,-74.9,180
+Frosinone,Serie A,1500,1425.0,-75.0,76
+Cardiff,Premier League,1500,1423.6,-76.4,38
+Eibar,La Liga,1500,1421.5,-78.5,152
+Amiens,Ligue 1,1500,1421.2,-78.8,104
+Venezia,Serie A,1500,1421.1,-78.9,76
+Angers,Ligue 1,1500,1420.0,-80.0,252
+Hamburger SV,Bundesliga,1500,1419.3,-80.7,38
+Spezia,Serie A,1500,1419.0,-81.0,115
+Hertha Berlin,Bundesliga,1500,1418.4,-81.6,206
+Swansea,Premier League,1500,1416.9,-83.1,38
+Luton,Premier League,1500,1414.0,-86.0,38
+VfL Bochum,Bundesliga,1500,1413.4,-86.6,137
+Elche,La Liga,1500,1412.9,-87.1,114
+FC Schalke 04,Bundesliga,1500,1410.2,-89.8,170
+SpVgg Greuther Furth,Bundesliga,1500,1409.0,-91.0,34
+Deportivo La Coruna,La Liga,1500,1408.4,-91.6,38
+Metz,Ligue 1,1500,1408.2,-91.8,178
+Guingamp,Ligue 1,1500,1403.6,-96.4,76
+Ipswich,Premier League,1500,1403.4,-96.6,38
+Leicester,Premier League,1500,1403.3,-96.7,266
+Caen,Ligue 1,1500,1401.3,-98.7,76
+Almeria,La Liga,1500,1401.2,-98.8,76
+Burnley,Premier League,1500,1399.5,-100.5,228
+Ajaccio,Ligue 1,1500,1397.3,-102.7,38
+SC Paderborn 07,Bundesliga,1500,1392.0,-108.0,34
+Montpellier,Ligue 1,1500,1391.0,-109.0,286
+West Brom,Premier League,1500,1390.9,-109.1,76
+Las Palmas,La Liga,1500,1390.8,-109.2,114
+Brescia,Serie A,1500,1388.9,-111.1,38
+SV Darmstadt 98,Bundesliga,1500,1388.2,-111.8,34
+Benevento,Serie A,1500,1383.4,-116.6,76
+FC Nurnberg,Bundesliga,1500,1382.4,-117.6,34
+Monza,Serie A,1500,1381.5,-118.5,114
+Salernitana,Serie A,1500,1381.2,-118.8,114
+Sampdoria,Serie A,1500,1377.2,-122.8,228
+Estac Troyes,Ligue 1,1500,1371.7,-128.3,114
+Granada CF,La Liga,1500,1371.3,-128.7,152
+Chievo,Serie A,1500,1369.1,-130.9,76
+Hannover 96,Bundesliga,1500,1368.5,-131.5,68
+Crotone,Serie A,1500,1364.7,-135.3,76
+Dijon,Ligue 1,1500,1360.5,-139.5,142
+Watford,Premier League,1500,1356.7,-143.3,152
+Malaga,La Liga,1500,1356.5,-143.5,38
+Spal,Serie A,1500,1341.6,-158.4,114
+Norwich,Premier League,1500,1337.9,-162.1,76
+Sheffield Utd,Premier League,1500,1332.5,-167.5,114
+Valladolid,La Liga,1500,1320.2,-179.8,190
+Huddersfield,Premier League,1500,1319.8,-180.2,76
+Southampton,Premier League,1500,1314.8,-185.2,266
