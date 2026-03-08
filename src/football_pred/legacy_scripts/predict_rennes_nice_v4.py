@@ -16,8 +16,8 @@ import pandas as pd
 warnings.filterwarnings("ignore")
 
 # ── Paramètres ────────────────────────────────────────────────────────────
-HOME_TEAM = "Rennes"
-AWAY_TEAM = "Nice"
+HOME_TEAM = "Nice"
+AWAY_TEAM = "Rennes"
 MATCH_DATE = pd.Timestamp("2026-03-08").tz_localize(None)
 FORM_WINDOW = 5
 K = 20
