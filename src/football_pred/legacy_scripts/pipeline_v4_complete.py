@@ -127,6 +127,11 @@ team_df = pd.concat([home_records, away_records], ignore_index=True)
 team_df = team_df.sort_values("date").reset_index(drop=True)
 print(f"Team-match records: {team_df.shape}")
 
+# Convert stat columns to numeric (handle '39%' -> 39.0, None -> NaN)
+for s in ROLL_STATS:
+    team_df[s] = team_df[s].astype(str).str.replace('%', '', regex=False)
+    team_df[s] = pd.to_numeric(team_df[s], errors='coerce')
+
 # Compute rolling averages per team (shift to avoid leakage)
 for s in ROLL_STATS:
     col = f"{s}_avg{ROLLING_W}"
