@@ -90,6 +90,12 @@ def main():
     team_df = team_df.sort_values("date").reset_index(drop=True)
     print(f"Team-match records: {team_df.shape}")
 
+    # Clean percentage columns: remove '%' suffix and convert to numeric
+    for stat in ROLLING_STATS:
+        if team_df[stat].dtype == object:
+            team_df[stat] = team_df[stat].astype(str).str.rstrip('%').replace('nan', None)
+            team_df[stat] = pd.to_numeric(team_df[stat], errors='coerce')
+
     # Step 2: For each team, compute rolling averages (shift to avoid leakage)
     print("Computing rolling averages per team...")
     rolling_cols = {}

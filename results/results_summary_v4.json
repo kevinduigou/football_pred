@@ -1,23 +1,6 @@
 {
   "baseline_v2": {
     "features": 15,
-    "feature_names": [
-      "home_elo",
-      "away_elo",
-      "elo_diff",
-      "home_form_5",
-      "away_form_5",
-      "home_goals_for_avg",
-      "away_goals_for_avg",
-      "home_goals_against_avg",
-      "away_goals_against_avg",
-      "home_rest_days",
-      "away_rest_days",
-      "home_h2h_win_rate",
-      "away_h2h_win_rate",
-      "home_gd_form",
-      "away_gd_form"
-    ],
     "best_params": {
       "colsample_bytree": 0.7,
       "learning_rate": 0.03,
@@ -26,66 +9,47 @@
       "n_estimators": 200,
       "subsample": 0.8
     },
-    "cv_logloss": 0.9932,
-    "test_logloss": 0.9966,
-    "test_accuracy": 0.519,
-    "test_f1_weighted": 0.4473,
-    "test_f1_macro": 0.3962,
-    "report": {
+    "cv_logloss": 0.9933,
+    "test_logloss": 0.997,
+    "test_accuracy": 0.5206,
+    "test_f1_weighted": 0.4483,
+    "test_f1_macro": 0.3964,
+    "classification_report": {
       "Home": {
-        "precision": 0.5325288562434418,
-        "recall": 0.7825751734772552,
-        "f1-score": 0.6337808304714331,
+        "precision": 0.5359202936549554,
+        "recall": 0.7879722436391673,
+        "f1-score": 0.6379525593008739,
         "support": 1297.0
       },
       "Draw": {
-        "precision": 0.37037037037037035,
-        "recall": 0.013123359580052493,
-        "f1-score": 0.025348542458808618,
+        "precision": 0.25,
+        "recall": 0.010498687664041995,
+        "f1-score": 0.020151133501259445,
         "support": 762.0
       },
       "Away": {
-        "precision": 0.4990859232175503,
+        "precision": 0.5018382352941176,
         "recall": 0.5640495867768595,
-        "f1-score": 0.5295829291949563,
+        "f1-score": 0.5311284046692607,
         "support": 968.0
       },
-      "accuracy": 0.5189957053187975,
+      "accuracy": 0.5206475057813016,
       "macro avg": {
-        "precision": 0.46732838327712084,
-        "recall": 0.45324937327805576,
-        "f1-score": 0.3962374340417327,
+        "precision": 0.4292528429830244,
+        "recall": 0.45417350602668954,
+        "f1-score": 0.3964106991571314,
         "support": 3027.0
       },
       "weighted avg": {
-        "precision": 0.48101332092651305,
-        "recall": 0.5189957053187975,
-        "f1-score": 0.44729620149844024,
+        "precision": 0.45304527011403467,
+        "recall": 0.5206475057813016,
+        "f1-score": 0.4482695503340065,
         "support": 3027.0
       }
     }
   },
   "europe_v3": {
     "features": 17,
-    "feature_names": [
-      "home_elo",
-      "away_elo",
-      "elo_diff",
-      "home_form_5",
-      "away_form_5",
-      "home_goals_for_avg",
-      "away_goals_for_avg",
-      "home_goals_against_avg",
-      "away_goals_against_avg",
-      "home_rest_days",
-      "away_rest_days",
-      "home_h2h_win_rate",
-      "away_h2h_win_rate",
-      "home_gd_form",
-      "away_gd_form",
-      "home_played_europe",
-      "away_played_europe"
-    ],
     "best_params": {
       "colsample_bytree": 0.7,
       "learning_rate": 0.03,
@@ -94,84 +58,47 @@
       "n_estimators": 200,
       "subsample": 0.8
     },
-    "cv_logloss": 0.9928,
-    "test_logloss": 0.9964,
-    "test_accuracy": 0.5187,
-    "test_f1_weighted": 0.447,
-    "test_f1_macro": 0.3959,
-    "report": {
+    "cv_logloss": 0.9931,
+    "test_logloss": 0.9976,
+    "test_accuracy": 0.5213,
+    "test_f1_weighted": 0.4497,
+    "test_f1_macro": 0.3986,
+    "classification_report": {
       "Home": {
-        "precision": 0.5332983744100682,
-        "recall": 0.7841171935235158,
-        "f1-score": 0.6348314606741573,
+        "precision": 0.5339602925809822,
+        "recall": 0.7879722436391673,
+        "f1-score": 0.6365618187480536,
         "support": 1297.0
       },
       "Draw": {
-        "precision": 0.3448275862068966,
-        "recall": 0.013123359580052493,
-        "f1-score": 0.025284450063211124,
+        "precision": 0.36666666666666664,
+        "recall": 0.014435695538057743,
+        "f1-score": 0.027777777777777776,
         "support": 762.0
       },
       "Away": {
-        "precision": 0.4977085242896425,
-        "recall": 0.5609504132231405,
-        "f1-score": 0.5274405050995629,
+        "precision": 0.5032317636195752,
+        "recall": 0.5630165289256198,
+        "f1-score": 0.5314480741101901,
         "support": 968.0
       },
-      "accuracy": 0.5186653452262967,
+      "accuracy": 0.5213082259663032,
       "macro avg": {
-        "precision": 0.4586114949688691,
-        "recall": 0.45273032210890296,
-        "f1-score": 0.39585213861231044,
+        "precision": 0.467952907622408,
+        "recall": 0.45514148936761495,
+        "f1-score": 0.3985958902120072,
         "support": 3027.0
       },
       "weighted avg": {
-        "precision": 0.4744725681572143,
-        "recall": 0.5186653452262967,
-        "f1-score": 0.44704511542085423,
+        "precision": 0.4820201013086497,
+        "recall": 0.5213082259663032,
+        "f1-score": 0.4496957652202036,
         "support": 3027.0
       }
     }
   },
   "advanced_v4": {
-    "features": 35,
-    "feature_names": [
-      "home_elo",
-      "away_elo",
-      "elo_diff",
-      "home_form_5",
-      "away_form_5",
-      "home_goals_for_avg",
-      "away_goals_for_avg",
-      "home_goals_against_avg",
-      "away_goals_against_avg",
-      "home_rest_days",
-      "away_rest_days",
-      "home_h2h_win_rate",
-      "away_h2h_win_rate",
-      "home_gd_form",
-      "away_gd_form",
-      "home_played_europe",
-      "away_played_europe",
-      "home_shots_on_goal_avg5",
-      "away_shots_on_goal_avg5",
-      "home_total_shots_avg5",
-      "away_total_shots_avg5",
-      "home_shots_insidebox_avg5",
-      "away_shots_insidebox_avg5",
-      "home_ball_possession_avg5",
-      "away_ball_possession_avg5",
-      "home_total_passes_avg5",
-      "away_total_passes_avg5",
-      "home_passes_pct_avg5",
-      "away_passes_pct_avg5",
-      "home_corner_kicks_avg5",
-      "away_corner_kicks_avg5",
-      "home_fouls_avg5",
-      "away_fouls_avg5",
-      "home_expected_goals_avg5",
-      "away_expected_goals_avg5"
-    ],
+    "features": 33,
     "best_params": {
       "colsample_bytree": 0.7,
       "learning_rate": 0.03,
@@ -180,41 +107,41 @@
       "n_estimators": 200,
       "subsample": 0.8
     },
-    "cv_logloss": 0.9916,
-    "test_logloss": 0.9947,
-    "test_accuracy": 0.5183,
-    "test_f1_weighted": 0.4484,
-    "test_f1_macro": 0.398,
-    "report": {
+    "cv_logloss": 0.991,
+    "test_logloss": 0.9899,
+    "test_accuracy": 0.5273,
+    "test_f1_weighted": 0.4565,
+    "test_f1_macro": 0.4058,
+    "classification_report": {
       "Home": {
-        "precision": 0.5276073619631901,
+        "precision": 0.5383411580594679,
         "recall": 0.7956823438704703,
-        "f1-score": 0.6344912388564402,
+        "f1-score": 0.642190416925949,
         "support": 1297.0
       },
       "Draw": {
-        "precision": 0.30434782608695654,
-        "recall": 0.01837270341207349,
-        "f1-score": 0.034653465346534656,
+        "precision": 0.42857142857142855,
+        "recall": 0.01968503937007874,
+        "f1-score": 0.037641154328732745,
         "support": 762.0
       },
       "Away": {
-        "precision": 0.5102439024390244,
-        "recall": 0.5402892561983471,
-        "f1-score": 0.5248369292523833,
+        "precision": 0.5106976744186047,
+        "recall": 0.5671487603305785,
+        "f1-score": 0.5374449339207048,
         "support": 968.0
       },
-      "accuracy": 0.5183349851337958,
+      "accuracy": 0.5272547076313181,
       "macro avg": {
-        "precision": 0.44739969682972375,
-        "recall": 0.45144810116029693,
-        "f1-score": 0.3979938778184528,
+        "precision": 0.4925367536831671,
+        "recall": 0.46083871452370917,
+        "f1-score": 0.40575883505846216,
         "support": 3027.0
       },
       "weighted avg": {
-        "precision": 0.46585262289576945,
-        "recall": 0.5183349851337958,
-        "f1-score": 0.4484252477394018,
+        "precision": 0.5018682720223878,
+        "recall": 0.5272547076313181,
+        "f1-score": 0.456508168611395,
         "support": 3027.0
       }
     }
