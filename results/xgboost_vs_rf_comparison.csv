@@ -1,0 +1,12 @@
+Metric,XGBoost v4,Random Forest,Winner
+CV Log Loss,0.9941,0.993,Random Forest
+Test Log Loss,0.9881,0.9899,XGBoost
+Test Accuracy,0.5254,0.528,Random Forest
+Test F1 (Weighted),0.4573,0.4525,XGBoost
+Test F1 (Macro),0.4073,0.3999,XGBoost
+RPS,0.20103,0.20143,XGBoost
+Brier Score,0.58859,0.58951,XGBoost
+ECE Home,0.0233,0.0231,Random Forest
+ECE Draw,0.0109,0.00971,Random Forest
+ECE Away,0.01949,0.02165,XGBoost
+ECE Mean,0.0179,0.01815,XGBoost
