@@ -1,10 +1,10 @@
 Metric,Baseline (v2),Europe (v3),Advanced (v4)
-Features,15.0,17.0,33.0
-CV Log Loss,0.9933,0.9931,0.991
-Test Log Loss,0.997,0.9976,0.9899
-Test Accuracy,0.5206,0.5213,0.5273
-Test F1 (Weighted),0.4483,0.4497,0.4565
-Test F1 (Macro),0.3964,0.3986,0.4058
-Home Win F1,0.638,0.6366,0.6422
-Draw F1,0.0202,0.0278,0.0376
-Away Win F1,0.5311,0.5314,0.5374
+Features,15.0,17.0,35.0
+CV Log Loss,0.9966,0.9963,0.9941
+Test Log Loss,0.9946,0.9939,0.9896
+Test Accuracy,0.5208,0.5214,0.5237
+Test F1 (Weighted),0.4493,0.4487,0.4526
+Test F1 (Macro),0.3979,0.3969,0.4012
+Home Win F1,0.6359,0.6363,0.6395
+Draw F1,0.0252,0.0203,0.0299
+Away Win F1,0.5326,0.534,0.5341
